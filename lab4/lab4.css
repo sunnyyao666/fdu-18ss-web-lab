@@ -1,29 +1,56 @@
-
 h1 { font-size: 3em; font-weight: bold; margin-top: 0;}
 
 div#topHeaderRow {
-   font-size: 0.9em;
+    font-size: 0.9em;
 }
 
-.price { 
+.price {
+color: red;
+    font-weight: bolder;
+    font-size:1.2em;
+}
+.panel1{
+    padding:5px 10px 5px 10px;
+}
+.panel1 img{
+    margin-left: 25px;
+}
+.similarTitle { font-weight: bold;margin:10px 0; }
+
+.cartText {
 
 }
 
-.similarTitle {  }
-
-.cartText { 
-
+h3{
+    margin: 0;
 }
 
+h4{
+    margin: 0;
+}
+
+.ul1 li{
+    border: 0;
+}
 footer {
-   margin-top: 1em;
-   background-color: #E7E7E7;
+    margin-top: 1em;
+    background-color: #E7E7E7;
 
 }
-
+.ul2 li{
+    border: 0;
+    background-color: #E7E7E7;
+}
 .tight-form-group {  }
 
-#copyrightRow { 
-    background-color: #3A3A3A; 
+#copyrightRow {
+    background-color: #3A3A3A;
+    margin-top:10px;
+    color:#777777;
+    padding:10px 0;
+}
 
+#copyrightRow span{
+    position: absolute;
+    right:250px;
 }
